@@ -20,7 +20,7 @@ defmodule PromEx.GrafanaClient.Connection do
     %__MODULE__{
       finch_process: finch_process,
       base_url: normalize_host(base_url),
-      auth_token: "Bearer #{auth_token}"
+      auth_token: "#{auth_token}"
     }
   end
 
